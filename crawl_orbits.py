@@ -38,7 +38,7 @@ QC_SERVER = 'https://qc.sentinel1.eo.esa.int/'
 DATA_SERVER = 'http://aux.sentinel1.eo.esa.int/'
 
 ORBITMAP = [('precise','aux_poeorb', 1000),
-            ('restituted','aux_resorb', 500)]
+            ('restituted','aux_resorb', 100)]
 
 OPER_RE = re.compile(r'S1\w_OPER_AUX_(?P<type>\w+)_OPOD_(?P<yr>\d{4})(?P<mo>\d{2})(?P<dy>\d{2})')
 
